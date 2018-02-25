@@ -1,19 +1,32 @@
-.div1 {
-  display: inline;
+.box2{
+  float:left; 
+  
 }
 
-.work {
-  text-align: right;
+.bigblock{
+  float:left;
+  box-sizing: border-box;
+  }
+
+
+.div1 { display: inline; 
+  
 }
 
-.links {
-  text-align: left;
+
+.work{
+  text-align: right
+   float:right;
+   box-sizing: border-box;
+   }
+
+.links{
+  text-align:"left
 }
 
 .links2 {
   color: #00bfff;
 }
-
 .links {
   list-style-type: none;
 }
@@ -37,7 +50,7 @@
   font-family: Courier, monospace;
 }
 
-.text-center {
+.textcenter {
   vertical-align: 5px;
   text-align: center;
   font-family: Georgia, serif;
@@ -98,6 +111,7 @@
 .interest {
   vertical-align: 5px;
   list-style-type: none;
+  margin-right: 10px;
 }
 
 .section-interests {
@@ -116,5 +130,17 @@
 
 .zaglavie2 {
   font-family: Courier, monospace;
-  text-align: right;
+  text-align: right
 }
+
+.progress__bar {
+  width: 100%;
+  list-style-type: none;
+  background:#D3D3D3;
+  border-radius:10px;
+  height:50px;
+  
+}
+
+.tablica2{
+ 
