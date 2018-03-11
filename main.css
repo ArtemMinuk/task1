@@ -1,28 +1,44 @@
-.bigblock {
+.foto_olega {
   float: left;
   box-sizing: border-box;
 }
 
-.div1 {
-  display: inline;
+.first_box  {
+  width: 1150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.symbols_and_live {
+   flex-direction: column;
 }
 
 .work {
   text-align: right;
   float: right;
   box-sizing: border-box;
+  flex-grow: 5;
 }
 
-.links {
-  text-align: 'left
+.block_with_symbols {
+  padding: 50px;
+  text-align: left;
 }
 
-.links2 {
+.small_symbols {
   color: #00bfff;
 }
 
 .links {
   list-style-type: none;
+}
+
+.section-tools {
+  width: 1800;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .photo-oval {
@@ -33,6 +49,7 @@
   margin-right: 85px;
   margin-top: 30px;
 }
+
 .hobby {
   vertical-align: 5px;
   border-radius: 10px;
@@ -45,13 +62,13 @@
 }
 
 .textcenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   vertical-align: 5px;
   text-align: center;
   font-family: Georgia, serif;
   font-style: oblique;
-}
-.surok {
-  text-align: center;
 }
 
 .expcompany {
@@ -79,14 +96,17 @@
   font-size: 75%;
   color: #808080;
 }
+
 .period {
   list-style-type: none;
   font-size: 65%;
   color: #808080;
 }
 
-.projectcenter {
-  list-style-type: none;
+.project_centered {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
 }
 
 .section-right {
@@ -108,7 +128,6 @@
   margin-right: 10px;
 }
 
-
 .photo-oval1 {
   float: left;
   margin-left: 110px;
@@ -125,13 +144,35 @@
   text-align: right
 }
 
+.grafics {
+   width: 620px;
+}
+
+.activity {
+   width: 600px;
+}
+
+.tablica {
+  display: flex;
+  justify-content: space-between; 
+}
+
+.tablica2 {
+  text-indent: 10px;
+  margin-bottom: 18px;
+}
+
+.tablica3 {
+
+}
+
 .progress__bar {
   width: 100%;
   list-style-type: none;
   background:#D3D3D3;
   border-radius:10px;
   height:50px;
-  }
+ }
 
  .Sketch {
    margin-top: 10px;      
@@ -164,7 +205,7 @@
      height:50px;
      box-sizing: border-box;
     padding: 10px 20px;"
-    }
+}
 
 .Illustrator{
   margin-top: 10px; 
@@ -186,4 +227,18 @@ color:white;
   height:50px;
  box-sizing: border-box;
 padding: 10px 20px;
+}
+
+.last_project {
+    display: flex;
+    justify-content: center;
+    weight: 1000px;
+
+}
+
+.last_photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+
 }
