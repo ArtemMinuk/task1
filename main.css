@@ -22,7 +22,6 @@
 }
 
 .block_with_symbols {
-  padding: 50px;
   text-align: left;
 }
 
@@ -220,13 +219,13 @@
 
 .Photoshop{
  margin-top: 10px;  
-  background:rgb(32, 143, 235); 
-color:white;
+ background:rgb(32, 143, 235); 
+ color:white;
  width:570px;
  border-radius:10px;
-  height:50px;
+ height:50px;
  box-sizing: border-box;
-padding: 10px 20px;
+ padding: 10px 20px;
 }
 
 .last_project {
@@ -240,5 +239,43 @@ padding: 10px 20px;
   width: 200px;
   height: 200px;
   border-radius: 50%;
+}
 
+.big_block_with_circle {
+  display: flex;
+  flex-direction: column;
+}
+
+.box_with_circle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.text_with_circle{
+	margin: 50px auto;
+	width: 100px;
+  height: 100px;
+  text-align: center;
+	background: #ffffff;
+	border: 25px solid #00adfd;
+	border-right-color: #cbcecc;
+	border-radius: 50%;
+	font: 40px/100px Times, serif;
+  }
+  
+span {
+  font-size:20px;
+}
+
+.ad {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+}
+
+.four_sentenses {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
