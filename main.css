@@ -1,25 +1,28 @@
 .foto_olega {
-  float: left;
   box-sizing: border-box;
+  max
 }
 
 .first_box  {
-  width: 1150px;
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
+.monster {
+   width: 430px;
+}
+
 .symbols_and_live {
    flex-direction: column;
+   max-width: 400px;
 }
 
 .work {
-  text-align: right;
-  float: right;
+  text-align: left;
   box-sizing: border-box;
-  flex-grow: 5;
 }
+
 
 .block_with_symbols {
   text-align: left;
@@ -119,7 +122,9 @@
 
 .exper {
   list-style-type: none;
+  margin-top: 15px;
 }
+
 
 .interest {
   vertical-align: 5px;
@@ -128,8 +133,6 @@
 }
 
 .photo-oval1 {
-  float: left;
-  margin-left: 110px;
   width: 200px;
   height: 200px;
   border-radius: 50%;
@@ -231,8 +234,6 @@
 .last_project {
     display: flex;
     justify-content: center;
-    weight: 1000px;
-
 }
 
 .last_photo {
@@ -244,24 +245,25 @@
 .big_block_with_circle {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .box_with_circle {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .text_with_circle{
-	margin: 50px auto;
-	width: 100px;
-  height: 100px;
+  margin: 50px auto;
   text-align: center;
+	width: 180px;
+  height: 180px;
 	background: #ffffff;
-	border: 25px solid #00adfd;
+	border: 7px solid #00adfd;
 	border-right-color: #cbcecc;
 	border-radius: 50%;
-	font: 40px/100px Times, serif;
+	font: 40px/170px Times, serif;
   }
   
 span {
@@ -277,5 +279,5 @@ span {
 .four_sentenses {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;;
 }
