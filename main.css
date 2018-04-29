@@ -1,28 +1,27 @@
 .foto_olega {
   box-sizing: border-box;
-  max
 }
 
-.first_box  {
+.first_box {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
+  padding: 10px;
 }
 
 .monster {
-   width: 430px;
+  width: 430px;
 }
 
 .symbols_and_live {
-   flex-direction: column;
-   max-width: 400px;
+  max-width: 400px;
 }
 
 .work {
   text-align: left;
   box-sizing: border-box;
 }
-
 
 .block_with_symbols {
   text-align: left;
@@ -37,7 +36,6 @@
 }
 
 .section-tools {
-  width: 1800;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -61,6 +59,7 @@
 
 .zaglavie {
   font-family: Courier, monospace;
+  margin-bottom: 30px;
 }
 
 .textcenter {
@@ -107,7 +106,7 @@
 
 .project_centered {
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   justify-content: center;
 }
 
@@ -125,10 +124,8 @@
   margin-top: 15px;
 }
 
-
 .interest {
   vertical-align: 5px;
-  list-style-type: none;
   margin-right: 10px;
 }
 
@@ -143,20 +140,20 @@
 
 .zaglavie2 {
   font-family: Courier, monospace;
-  text-align: right
+  text-align: right;
 }
 
 .grafics {
-   width: 620px;
+  width: 620px;
 }
 
 .activity {
-   width: 600px;
+  width: 600px;
 }
 
 .tablica {
   display: flex;
-  justify-content: space-between; 
+  justify-content: space-between;
 }
 
 .tablica2 {
@@ -165,75 +162,76 @@
 }
 
 .tablica3 {
-
+  margin-right: 18px;
 }
 
 .progress__bar {
   width: 100%;
   list-style-type: none;
-  background:#D3D3D3;
-  border-radius:10px;
-  height:50px;
- }
-
- .Sketch {
-   margin-top: 10px;      
-   background:rgb(9, 134, 156);
-   color:white;
-   width:100px;
-   border-radius:10px;
-   height:50px;
-   box-sizing: border-box;
-   padding: 10px 20px;
- }
-
-.Axure {
-    margin-top: 10px;
-    background:rgb(230, 132, 5); 
-    color:white;
-    width:410px;
-    border-radius:10px;
-    height:50px;
-    box-sizing: border-box;
-    padding: 10px 20px;';
+  background: #d3d3d3;
+  border-radius: 10px;
+  height: 50px;
 }
 
-.Indesign {      
-    margin-top: 10px;
-    background:rgb(177, 9, 168); 
-    color:white;
-     width:390px;
-     border-radius:10px;
-     height:50px;
-     box-sizing: border-box;
-    padding: 10px 20px;"
-}
-
-.Illustrator{
-  margin-top: 10px; 
-  background:#32CD32; 
-  color:white;
-  width:430px;
-  border-radius:10px;
-  height:50px;
+.Sketch {
+  margin-top: 10px;
+  background: rgb(9, 134, 156);
+  color: white;
+  width: 100px;
+  border-radius: 10px;
+  height: 50px;
   box-sizing: border-box;
   padding: 10px 20px;
 }
 
-.Photoshop{
- margin-top: 10px;  
- background:rgb(32, 143, 235); 
- color:white;
- width:570px;
- border-radius:10px;
- height:50px;
- box-sizing: border-box;
- padding: 10px 20px;
+.Axure {
+  margin-top: 10px;
+  background: rgb(230, 132, 5);
+  color: white;
+  width: 410px;
+  border-radius: 10px;
+  height: 50px;
+  box-sizing: border-box;
+  padding: 10px 20px;
+}
+
+.Indesign {
+  margin-top: 10px;
+  background: rgb(177, 9, 168);
+  color: white;
+  width: 390px;
+  border-radius: 10px;
+  height: 50px;
+  box-sizing: border-box;
+  padding: 10px 20px;
+}
+
+.Illustrator {
+  margin-top: 10px;
+  background: #32cd32;
+  color: white;
+  width: 430px;
+  border-radius: 10px;
+  height: 50px;
+  box-sizing: border-box;
+  padding: 10px 20px;
+}
+
+.Photoshop {
+  margin-top: 10px;
+  background: rgb(32, 143, 235);
+  color: white;
+  width: 570px;
+  border-radius: 10px;
+  height: 50px;
+  box-sizing: border-box;
+  padding: 10px 20px;
 }
 
 .last_project {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .last_photo {
@@ -254,30 +252,36 @@
   justify-content: space-around;
 }
 
-.text_with_circle{
+.text_with_circle {
   margin: 50px auto;
   text-align: center;
-	width: 180px;
+  width: 180px;
   height: 180px;
-	background: #ffffff;
-	border: 7px solid #00adfd;
-	border-right-color: #cbcecc;
-	border-radius: 50%;
-	font: 40px/170px Times, serif;
-  }
-  
+  background: #ffffff;
+  border: 7px solid #00adfd;
+  border-right-color: #cbcecc;
+  border-radius: 50%;
+  font: 40px/170px Times, serif;
+}
+
 span {
-  font-size:20px;
+  font-size: 20px;
 }
 
 .ad {
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   justify-content: center;
 }
 
 .four_sentenses {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;;
+  justify-content: space-around;
+}
+
+.section-interests {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
